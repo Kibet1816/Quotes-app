@@ -1,0 +1,26 @@
+<div class="container">
+  <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form><br><br>
+  <hr>
+  <div class="row" *ngFor='let quote of quotes'>
+    <div class="container">
+      <hr>
+      <div class="row" *ngFor='let quote of quotes'>
+        <div class="card">
+          <div class="card-title">
+            {{newQuote.author}}
+          </div>
+          <div class="card-body">
+            <ul>
+              <li>{{newQuote.quote}}</li>
+            </ul>
+            <button type="submit" class="btn-btn info">Upvote</button>
+            <button type="submit" class="btn-btn primary">Downvote</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <app-quote-details></app-quote-details>
+  </div>
+</div>
+
+
