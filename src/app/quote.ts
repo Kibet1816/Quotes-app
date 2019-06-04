@@ -1,6 +1,6 @@
 export class Quote {
   constructor(
-  public date: Date,
+  public id:number,
   public author: string,
   public quote: string,
   public upvotes: number,
