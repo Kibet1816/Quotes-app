@@ -33,6 +33,6 @@ The following languages have been used to write the application:
 
 ## License and copyright information
 
-(MIT License)[https://github.com/Kibet1816/Quotes-app/blob/gh-pages/license.md] 
+[MIT License](https://github.com/Kibet1816/Quotes-app/blob/gh-pages/license.md) 
 
 Copyright (c) 2019 Denis Kibet
