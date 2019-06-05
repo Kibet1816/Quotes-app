@@ -13,7 +13,7 @@ This is a web application that allows a user to post, view ,upvote or downvote a
 - Enjoy the application
 
 ## BDD
-| Behavior        | Input           | Outcome  |
+| Input        | Behaviour           | Outcome  |
 | ------------- |:-------------:| -----:|
 | User inputs data | The input field accepts input | The form button is enabled |
 | User clicks the submit button | Form is submitted | Quote is shown within card form |
